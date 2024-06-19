@@ -1,0 +1,54 @@
+﻿@model Movie
+
+<div class="bg-[#1E1F2C]">
+    <div class="flex p-[30px] gap-[50px] items-center">
+        <div>
+            <img src="~/images/movies/@Model.ImgUrl" class="!w-[400px] !h-[500px] rounded-[10px]" alt="Alternate Text" />
+
+        </div>
+        <div class="flex flex-col gap-[30px]">
+            <div class="flex flex-col gap-[10px]">
+                <h1 class="text-white text-[25px]">@Model.Name</h1>
+                <h3 class="text-white text-[20px]">
+                    Price: <span class="bg-[#c6c6c6] text-black p-[5px_20px] rounded-[5px]">$@Model.Price</span>
+                </h3>
+                <h3 class="text-white text-[20px]">
+                    Cinema: <span>@Model.Cinema.Name</span>
+                </h3>
+                <h3 class="text-white text-[20px]">
+                    Category: <span>@Model.Category.Name</span>
+                </h3>
+                <h3 class="text-white text-[20px]">
+                    Start Date: <span>@Model.StartDate</span>
+                </h3>
+                <h3 class="text-white text-[20px]">
+                    End Date: <span>@Model.EndDate</span>
+                </h3>
+                <div class="flex gap-[10px]">
+                    @{
+                        foreach (var actor in Model.Actors)
+                        {
+                            <a href="/Actor/GetOneActor?ActorId=@actor.Id">
+                                <img class="w-[70px] h-[70px] cursor-pointer rounded-[50%]" src="~/images/cast/@actor.ProfilePicture" alt="Alternate Text" />
+                            </a>
+
+                        }
+                    }
+                </div>
+                <p class="text-white text-[20px]">
+                    @Model.Description
+                </p>
+            </div>
+
+            <video controls="controls" class="w-[500px] rounded-[10px]">
+                <source src="~/videos/Jumanji.mp4" type="video/mp4" />
+                <source src="~/videos/Jumanji.mp4" type="video/webm" />
+                <source src="~/videos/Jumanji.mp4" type="video/ogg" />
+            </video>
+
+            <button class="bg-[#086FCC] text-white text-[20px] p-[5px_10px] w-fit rounded-[5px]">
+                Book Ticket
+            </button>
+        </div>
+    </div>
+</div>

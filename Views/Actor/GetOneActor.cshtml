@@ -1,0 +1,16 @@
+﻿@model Actor
+<div>
+    <div class="flex items-center justify-center gap-[20px]">
+        <div>
+            <img class="w-[300px] rounded-[5px]" src="~/images/cast/@Model.ProfilePicture" alt="Alternate Text" />
+        </div>
+        <div>
+            <h1 class="text-white text-[25px]">
+                @(Model.FirstName + " " + @Model.LastName)
+            </h1>
+            <h2 class="text-white text-[20px]">
+                Bio:<p class="text-[18px] text-[#999] max-w-[500px] pl-[20px]">@Model.Bio</p>
+            </h2>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,108 @@
+﻿<div class="relative">
+    <div class="mx-auto flex justify-around items-center bg-[black] text-white p-[20px]">
+        <div class="details flex flex-col gap-[20px]">
+            <h3 class="text-[25px] font-medium">Hit Man Wife BodyGard</h3>
+            <span class="date text-[#FF9641]">Relasing 10 Aprial</span>
+            <div>
+                <button class="flex items-center gap-[10px]">
+                    <div class="bg-[#FFB334] p-2 rounded-[50%] toggleVideo h-[50px] w-[50px] flex justify-center items-center">
+                        <i class="bi bi-play-circle text-[25px] "></i>
+                    </div>
+                    <span>Watch The Trailer</span>
+                </button>
+            </div>
+        </div>
+        <div class="parentImg max-h-[500px] overflow-hidden">
+            <img src="~/images/movie-2.jpg" class="h-[700px] object-cover w-[700px] rounded-[20px]" />
+        </div>
+    </div>
+
+    <div class="my-[20px] conVideo w-[700px]  absolute top-[0] my-[24px] right-[50%] z-[1000] translate-x-[50%] hidden max-h-[300px]">
+        <div class="flex justify-end">
+            <i class="bi bi-x xButton bg-[#FF9641] py-[3px] px-[10px] rounded-[50%] text-white text-[35px] font-[700] cursor-pointer"></i>
+        </div>
+        <video controls="controls" class="rounded-[24px] videoPlay w-[700px] ">
+            <source src="~/videos/Jumanji.mp4" type="video/mp4" />
+        </video>
+    </div>
+</div>
+<div class="relative">
+    <div class="swiper-container bg-[#1E1F2C] py-4">
+        <h3 class="text-[25px] text-white">Popular Movies</h3>
+        <div class="swiper-wrapper  p-4">
+            @if (ViewData["Movies"] != null && ViewData["Movies"] is List<Movie> movies)
+            {
+                @foreach (var item in movies.GetRange(0, 6))
+                {
+                    <div class="swiper-slide relative text-white rounded-[10px] cursor-pointer !w-[300px] !bg-[black] !h-[300px]">
+                        <div class="overflow-hidden">
+                            <img class="!h-[300px] !w-[300px] rounded-[10px]" src="~/images/movies/@item.ImgUrl" alt="Alternate Text" />
+                        </div>
+                        <div class="absolute bottom-[40px]">
+                            <div class="flex w-[300px] gap-[10px] justify-between items-center">
+                                <h4 class="p-[5px] max-w-[200px] bg-black opacity-[0.55]">@item.Name</h4>
+                                <button class="flex items-center gap-[10px]">
+                                    <div class="bg-[#FFB334] p-2 rounded-[50%] toggleVideosection h-[50px] w-[50px] flex justify-center items-center">
+                                        <i class="bi bi-play-circle text-[25px] "></i>
+                                    </div>
+                                </button>
+                            </div>
+
+
+                        </div>
+
+
+                        <div class="my-[20px] conVideoPopular  absolute top-[0] hidden  max-h-[300px]">
+                            <div class="flex justify-end">
+                                <i class="bi bi-x xButtonPopular bg-[#FF9641] py-[5px] my-[5px] px-[10px] rounded-[50%] text-white text-[20px] font-[700] cursor-pointer"></i>
+                            </div>
+
+                            <iframe id="myVideo" class="rounded-[24px] videoPlays "
+                                    src="https://youtu.be/nYPJIOF0ys4"
+                            frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+</div>
+
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            let swiper = new Swiper('.swiper-container', {
+
+                slidesPerView: 1,
+                spaceBetween: 10,
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+                breakpoints: {
+                    320: {
+                        slidesPerView: 1,
+                        spaceBetween: 20
+                    },
+                    480: {
+                        slidesPerView: 2,
+                        spaceBetween: 30
+                    },
+                    640: {
+                        slidesPerView: 3,
+                        spaceBetween: 40
+                    },
+                    1250: {
+                        slidesPerView: 3,
+                        spaceBetween: 20
+                    }
+                }
+
+            });
+        });
+    </script>
+}
+

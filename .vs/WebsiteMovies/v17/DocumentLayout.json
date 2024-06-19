@@ -1,0 +1,273 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\backEnd_course\\.net\\codes\\session16\\WebsiteMovies\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5A645D8D-F2DB-4BCD-8599-682FC00E9A42}|WebsiteMovies.csproj|d:\\backend_course\\.net\\codes\\session16\\websitemovies\\views\\actor\\getoneactor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A645D8D-F2DB-4BCD-8599-682FC00E9A42}|WebsiteMovies.csproj|solutionrelative:views\\actor\\getoneactor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A645D8D-F2DB-4BCD-8599-682FC00E9A42}|WebsiteMovies.csproj|d:\\backend_course\\.net\\codes\\session16\\websitemovies\\views\\actor\\igetoneactor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A645D8D-F2DB-4BCD-8599-682FC00E9A42}|WebsiteMovies.csproj|solutionrelative:views\\actor\\igetoneactor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A645D8D-F2DB-4BCD-8599-682FC00E9A42}|WebsiteMovies.csproj|d:\\backend_course\\.net\\codes\\session16\\websitemovies\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A645D8D-F2DB-4BCD-8599-682FC00E9A42}|WebsiteMovies.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A645D8D-F2DB-4BCD-8599-682FC00E9A42}|WebsiteMovies.csproj|d:\\backend_course\\.net\\codes\\session16\\websitemovies\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A645D8D-F2DB-4BCD-8599-682FC00E9A42}|WebsiteMovies.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A645D8D-F2DB-4BCD-8599-682FC00E9A42}|WebsiteMovies.csproj|d:\\backend_course\\.net\\codes\\session16\\websitemovies\\views\\category\\allcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A645D8D-F2DB-4BCD-8599-682FC00E9A42}|WebsiteMovies.csproj|solutionrelative:views\\category\\allcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A645D8D-F2DB-4BCD-8599-682FC00E9A42}|WebsiteMovies.csproj|d:\\backend_course\\.net\\codes\\session16\\websitemovies\\views\\category\\allmoviestocategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A645D8D-F2DB-4BCD-8599-682FC00E9A42}|WebsiteMovies.csproj|solutionrelative:views\\category\\allmoviestocategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A645D8D-F2DB-4BCD-8599-682FC00E9A42}|WebsiteMovies.csproj|d:\\backend_course\\.net\\codes\\session16\\websitemovies\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A645D8D-F2DB-4BCD-8599-682FC00E9A42}|WebsiteMovies.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A645D8D-F2DB-4BCD-8599-682FC00E9A42}|WebsiteMovies.csproj|d:\\backend_course\\.net\\codes\\session16\\websitemovies\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A645D8D-F2DB-4BCD-8599-682FC00E9A42}|WebsiteMovies.csproj|solutionrelative:controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A645D8D-F2DB-4BCD-8599-682FC00E9A42}|WebsiteMovies.csproj|d:\\backend_course\\.net\\codes\\session16\\websitemovies\\views\\movie\\singlemove.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A645D8D-F2DB-4BCD-8599-682FC00E9A42}|WebsiteMovies.csproj|solutionrelative:views\\movie\\singlemove.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A645D8D-F2DB-4BCD-8599-682FC00E9A42}|WebsiteMovies.csproj|d:\\backend_course\\.net\\codes\\session16\\websitemovies\\wwwroot\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5A645D8D-F2DB-4BCD-8599-682FC00E9A42}|WebsiteMovies.csproj|solutionrelative:wwwroot\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/./MoviesDb/True/SqlTable/dbo.MovieActor.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A645D8D-F2DB-4BCD-8599-682FC00E9A42}|WebsiteMovies.csproj|d:\\backend_course\\.net\\codes\\session16\\websitemovies\\controllers\\actorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A645D8D-F2DB-4BCD-8599-682FC00E9A42}|WebsiteMovies.csproj|solutionrelative:controllers\\actorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A645D8D-F2DB-4BCD-8599-682FC00E9A42}|WebsiteMovies.csproj|d:\\backend_course\\.net\\codes\\session16\\websitemovies\\views\\movie\\allmovies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5A645D8D-F2DB-4BCD-8599-682FC00E9A42}|WebsiteMovies.csproj|solutionrelative:views\\movie\\allmovies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A645D8D-F2DB-4BCD-8599-682FC00E9A42}|WebsiteMovies.csproj|d:\\backend_course\\.net\\codes\\session16\\websitemovies\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5A645D8D-F2DB-4BCD-8599-682FC00E9A42}|WebsiteMovies.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 533,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\backEnd_course\\.net\\codes\\session16\\WebsiteMovies\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "D:\\backEnd_course\\.net\\codes\\session16\\WebsiteMovies\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AQIAACIAAAAAAAAAAAD4vzIAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-18T22:40:04.431Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "dbo.MovieActor [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/./MoviesDb/True/SqlTable/dbo.MovieActor.sql",
+              "ToolTip": "dbo.MovieActor [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-19T21:12:09.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetOneActor.cshtml",
+              "DocumentMoniker": "D:\\backEnd_course\\.net\\codes\\session16\\WebsiteMovies\\Views\\Actor\\GetOneActor.cshtml",
+              "RelativeDocumentMoniker": "Views\\Actor\\GetOneActor.cshtml",
+              "ToolTip": "D:\\backEnd_course\\.net\\codes\\session16\\WebsiteMovies\\Views\\Actor\\GetOneActor.cshtml",
+              "RelativeToolTip": "Views\\Actor\\GetOneActor.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T21:04:52.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IGetOneActor.cshtml",
+              "DocumentMoniker": "D:\\backEnd_course\\.net\\codes\\session16\\WebsiteMovies\\Views\\Actor\\IGetOneActor.cshtml",
+              "RelativeDocumentMoniker": "Views\\Actor\\IGetOneActor.cshtml",
+              "ToolTip": "D:\\backEnd_course\\.net\\codes\\session16\\WebsiteMovies\\Views\\Actor\\IGetOneActor.cshtml",
+              "RelativeToolTip": "Views\\Actor\\IGetOneActor.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T21:00:59.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ActorController.cs",
+              "DocumentMoniker": "D:\\backEnd_course\\.net\\codes\\session16\\WebsiteMovies\\Controllers\\ActorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ActorController.cs",
+              "ToolTip": "D:\\backEnd_course\\.net\\codes\\session16\\WebsiteMovies\\Controllers\\ActorController.cs",
+              "RelativeToolTip": "Controllers\\ActorController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T20:58:23.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AllMovies.cshtml",
+              "DocumentMoniker": "D:\\backEnd_course\\.net\\codes\\session16\\WebsiteMovies\\Views\\Movie\\AllMovies.cshtml",
+              "RelativeDocumentMoniker": "Views\\Movie\\AllMovies.cshtml",
+              "ToolTip": "D:\\backEnd_course\\.net\\codes\\session16\\WebsiteMovies\\Views\\Movie\\AllMovies.cshtml",
+              "RelativeToolTip": "Views\\Movie\\AllMovies.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABMAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T20:44:33.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SingleMove.cshtml",
+              "DocumentMoniker": "D:\\backEnd_course\\.net\\codes\\session16\\WebsiteMovies\\Views\\Movie\\SingleMove.cshtml",
+              "RelativeDocumentMoniker": "Views\\Movie\\SingleMove.cshtml",
+              "ToolTip": "D:\\backEnd_course\\.net\\codes\\session16\\WebsiteMovies\\Views\\Movie\\SingleMove.cshtml",
+              "RelativeToolTip": "Views\\Movie\\SingleMove.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB4AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T16:30:49.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "D:\\backEnd_course\\.net\\codes\\session16\\WebsiteMovies\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MovieController.cs",
+              "ToolTip": "D:\\backEnd_course\\.net\\codes\\session16\\WebsiteMovies\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "Controllers\\MovieController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T14:39:57.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\backEnd_course\\.net\\codes\\session16\\WebsiteMovies\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\backEnd_course\\.net\\codes\\session16\\WebsiteMovies\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T14:35:39.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AllMoviesToCategory.cshtml",
+              "DocumentMoniker": "D:\\backEnd_course\\.net\\codes\\session16\\WebsiteMovies\\Views\\Category\\AllMoviesToCategory.cshtml",
+              "RelativeDocumentMoniker": "Views\\Category\\AllMoviesToCategory.cshtml",
+              "ToolTip": "D:\\backEnd_course\\.net\\codes\\session16\\WebsiteMovies\\Views\\Category\\AllMoviesToCategory.cshtml",
+              "RelativeToolTip": "Views\\Category\\AllMoviesToCategory.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T14:22:39.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\backEnd_course\\.net\\codes\\session16\\WebsiteMovies\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "D:\\backEnd_course\\.net\\codes\\session16\\WebsiteMovies\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAA6wAYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T13:30:44.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AllCategory.cshtml",
+              "DocumentMoniker": "D:\\backEnd_course\\.net\\codes\\session16\\WebsiteMovies\\Views\\Category\\AllCategory.cshtml",
+              "RelativeDocumentMoniker": "Views\\Category\\AllCategory.cshtml",
+              "ToolTip": "D:\\backEnd_course\\.net\\codes\\session16\\WebsiteMovies\\Views\\Category\\AllCategory.cshtml",
+              "RelativeToolTip": "Views\\Category\\AllCategory.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T13:21:32.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\backEnd_course\\.net\\codes\\session16\\WebsiteMovies\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\backEnd_course\\.net\\codes\\session16\\WebsiteMovies\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Controllers\\CategoryController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA2wBUAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T13:18:01.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Main.css",
+              "DocumentMoniker": "D:\\backEnd_course\\.net\\codes\\session16\\WebsiteMovies\\wwwroot\\css\\Main.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Main.css",
+              "ToolTip": "D:\\backEnd_course\\.net\\codes\\session16\\WebsiteMovies\\wwwroot\\css\\Main.css",
+              "RelativeToolTip": "wwwroot\\css\\Main.css",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAACwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-19T00:11:34.805Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 44,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
