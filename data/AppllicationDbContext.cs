@@ -1,28 +1,26 @@
 ﻿using Azure;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Hosting;
 using WebsiteMovies.Models;
+using WebsiteMovies.ViewModel;
 
 namespace WebsiteMovies.data
 {
-    public class AppllicationDbContext : DbContext
+    public class AppllicationDbContext : 
+        IdentityDbContext<ApplicationUser>
     {
        public DbSet<Movie> Movies { get; set; }
        public DbSet<Category> Categories { get; set; }
        public DbSet<Cinema> Cinemas { get; set; }
        public DbSet<Actor> Actors { get; set; }
 
-
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public AppllicationDbContext(DbContextOptions<AppllicationDbContext>
+            options)
+        : base(options)
         {
-            base.OnConfiguring(optionsBuilder);
-
-            var bulider = new ConfigurationBuilder().AddJsonFile("appsettings.json", true, true).Build();
-            var connectionString = bulider.GetConnectionString("DevlopmentConnection");
-            optionsBuilder.UseSqlServer(connectionString);
-
         }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -45,6 +43,10 @@ namespace WebsiteMovies.data
             .WithOne(e => e.Category)
             .HasForeignKey(e => e.CategoryId);
         }
+        public DbSet<WebsiteMovies.ViewModel.MovieVm> MovieVm { get; set; } = default!;
+        public DbSet<WebsiteMovies.ViewModel.CategoryVm> CategoryVm { get; set; } = default!;
+        public DbSet<WebsiteMovies.ViewModel.ApplicationUserVm> ApplicationUserVm { get; set; } = default!;
+        public DbSet<WebsiteMovies.ViewModel.LoginUserVm> LoginUserVm { get; set; } = default!;
 
     }
 }

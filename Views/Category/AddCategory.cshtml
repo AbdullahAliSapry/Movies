@@ -1,0 +1,18 @@
+﻿@model CategoryVm
+
+
+<div class="flex justify-center  items-center py-[10px]">
+    <form asp-action="AddCategory"  class="flex justify-center items-center gap-[10px] w-[400px] flex-col text-white">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="flex flex-col gap-[10px] w-full">
+            <label asp-for="Name"></label>
+            <input asp-for="Name"  class="border-0 w-full outline-none rounded-[10px] text-[18px] text-[rgb(80_77_77)] p-[5px_20px]" />
+            <span asp-validation-for="Name" class="text-red-500 w-full"></span>
+        </div>
+      
+        <button type="submit" class="border-0 outline-none p-[10px_20px] w-[100%] rounded-[10px]  bg-primary">Add Category</button>
+    </form>
+</div>
+
+
+

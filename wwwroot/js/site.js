@@ -36,9 +36,7 @@ xButton.addEventListener("click", () => {
     }
 });
 
-
 // handling click on swiper
-
 
 const toggleVideosection = document.querySelectorAll(".toggleVideosection");
 const Videos = document.querySelectorAll(".conVideoPopular");
@@ -50,9 +48,13 @@ toggleVideosection.forEach((e,index) => {
         Videos[index].classList.toggle("hidden");
    
         if (!Videos[index].classList.contains("hidden")) {
-            xButtonPopulars[index].addEventListener("click",() => {
+            xButtonPopulars[index].addEventListener("click", () => {
                 Videos[index].classList.add("hidden");
+                console.log(Videos[index]);
+                Videos[index].pause();
            })
         }
     })
 })
+// handling button to model
+

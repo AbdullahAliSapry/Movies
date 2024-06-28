@@ -1,0 +1,71 @@
+﻿@model MovieVm
+
+@{
+    var selectList = new
+    SelectList(ViewData["Categories"] as List<Category>, "Id", "Name");
+    var selectListCinema = new
+           SelectList(ViewData["Cinemas"] as List<Cinema>, "Id", "Name");
+
+}
+<div class="flex justify-center items-center py-[10px]">
+
+    <form asp-action="CreateMovie" method="post" class="flex justify-center items-center gap-[10px] w-[400px] flex-col text-white">
+
+        <div class="flex flex-col gap-[10px] w-full">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" class="border-0 w-full outline-none rounded-[10px] text-[18px] text-[rgb(80_77_77)] p-[5px_20px]" />
+            <span asp-validation-for="Name" class="text-red-500 w-full"> </span>
+        </div>
+        <div class="flex flex-col w-full gap-[10px]">
+            <label asp-for="Description"></label>
+            <textarea asp-for="Description" class="border-0 w-full outline-none rounded-[10px] text-[18px] text-[rgb(80_77_77)] p-[5px_20px]"></textarea>
+            <span asp-validation-for="Description" class="text-red-500 w-full"> </span>
+        </div>
+        <div class="flex flex-col w-full gap-[10px]">
+            <label asp-for="Price"></label>
+            <input asp-for="Price" class="border-0 w-full outline-none rounded-[10px] text-[18px] text-[rgb(80_77_77)] p-[5px_20px]" />
+            <span asp-validation-for="Price" class="text-red-500 w-full"> </span>
+        </div>
+        <div class="flex flex-col gap-[10px] w-full">
+            <label asp-for="ImgUrl"></label>
+            <input asp-for="ImgUrl" class="border-0 outline-none w-full rounded-[10px] text-[18px] text-[rgb(80_77_77)] p-[5px_20px]" />
+            <span asp-validation-for="ImgUrl" class="text-red-500 w-full"> </span>
+        </div>
+        <div class="flex flex-col gap-[10px] w-full">
+            <label asp-for="StartDate"></label>
+            <input asp-for="StartDate" class="border-0 w-full outline-none rounded-[10px] text-[18px] text-[rgb(80_77_77)] p-[5px_20px]" />
+            <span asp-validation-for="StartDate" class="text-red-500 w-full"> </span>
+        </div>
+        <div class="flex flex-col gap-[10px] w-full">
+            <label asp-for="EndDate"></label>
+            <input asp-for="EndDate" class="border-0 w-full outline-none rounded-[10px] text-[18px] text-[rgb(80_77_77)] p-[5px_20px]" />
+            <span asp-validation-for="EndDate" class="text-red-500 w-full"> </span>
+        </div>
+        <div class="flex flex-col gap-[10px] w-full">
+            <label asp-for="TrailerUrl"> </label>
+            <input asp-for="TrailerUrl" class="border-0 w-full outline-none rounded-[10px] text-[18px] text-[rgb(80_77_77)] p-[5px_20px]" />
+            <span asp-validation-for="TrailerUrl" class="text-red-500 w-full"> </span>
+        </div>
+        <div class="flex flex-col gap-[10px] w-full">
+            <label asp-for="CategoryId">Category</label>
+            <select asp-for="CategoryId"
+                    asp-items="@selectList"
+                    class="border-0 w-full outline-none cursor-pointer rounded-[10px] text-[18px] text-[rgb(80_77_77)] p-[5px_20px]">
+                <option disabled selected>--select category-</option>
+
+            </select>
+            <span asp-validation-for="CategoryId" class="text-red-500 w-full"> </span>
+        </div>
+        <div class="flex flex-col gap-[10px] w-full">
+            <label asp-for="CinemaId">Cinema</label>
+            <select asp-for="CinemaId"
+                    asp-items="@selectListCinema"
+                    class="border-0 w-full outline-none rounded-[10px] cursor-pointer text-[18px] text-[rgb(80_77_77)] p-[5px_20px]">
+                <option disabled selected>--select cinema-</option>
+
+            </select>
+            <span asp-validation-for="CategoryId" class="text-red-500 w-full"> </span>
+        </div>
+        <button type="submit" class="border-0 outline-none p-[10px_20px] w-[100%] rounded-[10px]  bg-primary">Add Movie</button>
+    </form>
+</div>

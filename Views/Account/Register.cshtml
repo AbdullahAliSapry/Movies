@@ -1,0 +1,52 @@
+﻿@model WebsiteMovies.ViewModel.ApplicationUserVm
+
+<div class="flex flex-col pt-2 items-center justify-center gap-[20px]">
+    <h1 class="text-primary italic text-[29px]">Register Yor Data Please</h1>
+    <div >
+        <div>
+            <form asp-action="Register" class="LoginForm flex flex-col gap-[20px] justify-center">
+                <div asp-validation-summary="ModelOnly" class="text-red-500"></div>
+                <div class="form-group">
+                    <label asp-for="userName" class="control-label">Your Name</label>
+                    <input asp-for="userName" class="form-control" />
+                    <span asp-validation-for="userName" class="text-red-500"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="email" class="control-label">Email</label>
+                    <input asp-for="email" class="form-control" />
+                    <span asp-validation-for="email" class="text-red-500"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Address" class="control-label">Your Address</label>
+                    <input asp-for="Address" class="form-control" />
+                    <span asp-validation-for="Address" class="text-red-500"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Password" class="control-label">Password</label>
+                    <input asp-for="Password" class="form-control" />
+                    <span asp-validation-for="Password" class="text-red-500"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="PasswordConfirmed" class="control-label">Confirm Password</label>
+                    <input asp-for="PasswordConfirmed" class="form-control" />
+                    <span asp-validation-for="PasswordConfirmed" class="text-red-500"></span>
+                </div>
+
+                <div class="flex !flex-row gap-[20px] text-white w-full justify-between">
+                    <span>Areadey Have Account</span>
+                    <a href="/Account/Login" class="text-primary text-underline">Login</a>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="bg-primary">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

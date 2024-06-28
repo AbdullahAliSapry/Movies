@@ -1,17 +1,40 @@
 ﻿@model List<Category>
 
+
+@section Catrgory {
+
+    @if (TempData["messageCategory"] != null)
+    {
+        <script>
+            toastr.success('@TempData["messageCategory"]');
+        </script>
+    }
+
+}
+
 <div class="flex p-[20px] gap-[20px] justify-center  bg-[#1E1F2C] flex-wrap">
     @{
         foreach (var item in Model)
-        { 
+        {
             <div class="cursor-pointer bg-[#1E1F2C] p-[10px] rounded-[5px]">
                 <div class="flex justify-between py-[5px] items-center">
                     <h1 class="text-[20px] text-white py-[5px]">@item.Name</h1>
                     <a href="/Category/AllMoviesToCategory?nameCategory=@item.Name" class="text-white bg-[#0077cc] rounded-[5px] p-[5px_10px]">See All Movies</a>
                 </div>
-                <img class="!h-[300px] !w-[300px] rounded-[10px]" src="~/images/movies/@item.Movies[0].ImgUrl" alt="Alternate Text" />
-            </div>    
+                @if (item.Movies.Count != 0)
+                {
+                    <img class="!h-[300px] !w-[300px] rounded-[10px]" src="@(item.Movies[0].ImgUrl.Contains("https") ? item.Movies[0].ImgUrl : Url.Content($"~/images/movies/{item.Movies[0].ImgUrl}"))" />
+
+                }
+                else
+                {
+                    <img class="!h-[300px] !w-[300px] rounded-[10px]" src="~/images/movies/movie1.png" alt="Alternate Text" />
+
+                }
+            </div>
 
         }
     }
 </div>
+
+

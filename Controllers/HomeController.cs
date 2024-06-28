@@ -2,16 +2,22 @@ using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using WebsiteMovies.data;
 using WebsiteMovies.Models;
+using WebsiteMovies.Repository.IRepository;
 
 namespace WebsiteMovies.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        AppllicationDbContext _context = new AppllicationDbContext();
-        public HomeController(ILogger<HomeController> logger)
+
+        private readonly AppllicationDbContext _context;
+
+
+        public HomeController(ILogger<HomeController> logger,
+            AppllicationDbContext context)
         {
-            _logger = logger;
+            this._logger = logger;
+            this._context = context;
         }
 
         public IActionResult Index()
@@ -32,11 +38,6 @@ namespace WebsiteMovies.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
-        //public IActionResult PopularFilms()
-        //{
-        //    var Movies = _context.Movies.ToList();
-        //    ViewData["Movies"]=Movies;
-        //    return View("Index");
-        //}
+
     }
 }

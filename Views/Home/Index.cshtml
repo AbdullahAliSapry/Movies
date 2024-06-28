@@ -13,7 +13,7 @@
             </div>
         </div>
         <div class="parentImg max-h-[500px] overflow-hidden">
-            <img src="~/images/movie-2.jpg" class="h-[700px] object-cover w-[700px] rounded-[20px]" />
+            <img src="~/images/movies/movie-2.jpg" class="h-[700px] object-cover w-[700px] rounded-[20px]" />
         </div>
     </div>
 
@@ -36,7 +36,10 @@
                 {
                     <div class="swiper-slide relative text-white rounded-[10px] cursor-pointer !w-[300px] !bg-[black] !h-[300px]">
                         <div class="overflow-hidden">
-                            <img class="!h-[300px] !w-[300px] rounded-[10px]" src="~/images/movies/@item.ImgUrl" alt="Alternate Text" />
+
+                            <img class="!h-[300px] !w-[300px] rounded-[10px]"
+                                 src="@(item.ImgUrl.Contains("https") ? item.ImgUrl
+                            : Url.Content($"~/images/movies/{item.ImgUrl}"))" />
                         </div>
                         <div class="absolute bottom-[40px]">
                             <div class="flex w-[300px] gap-[10px] justify-between items-center">
@@ -57,9 +60,10 @@
                                 <i class="bi bi-x xButtonPopular bg-[#FF9641] py-[5px] my-[5px] px-[10px] rounded-[50%] text-white text-[20px] font-[700] cursor-pointer"></i>
                             </div>
 
-                            <iframe id="myVideo" class="rounded-[24px] videoPlays "
-                                    src="https://youtu.be/nYPJIOF0ys4"
-                            frameborder="0" allowfullscreen></iframe>
+                            <iframe id="myVideo" class="rounded-[24px] videoPlays"
+                                    src="https://www.youtube.com/embed/nYPJIOF0ys4"
+                                    allowfullscreen></iframe>
+
                         </div>
                     </div>
                 }
@@ -71,7 +75,10 @@
 </div>
 
 
+
 @section Scripts {
+    <script src="~/js/site.js"></script>
+
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             let swiper = new Swiper('.swiper-container', {

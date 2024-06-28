@@ -1,10 +1,13 @@
 ﻿@model ICollection<Movie>
+@{
 
+    var lenght = ViewData["count"];
+}
 
 <div class="flex gap-[20px] bg-[#1E1F2C] p-[20px] flex-wrap justify-between">
 
     @{
-        if (Model.Count ==0)
+        if (Model.Count == 0)
         {
 
             <h1 class="text-center w-[100%] text-[36px] text-[wheat]">Not Found Result</h1>
@@ -19,7 +22,10 @@
                     </div>
                     <div class="py-[10px] flex gap-[50px]">
                         <div>
-                            <img class="max-w-[300px]" src="~/images/movies/@movie.ImgUrl" alt="Alternate Text" />
+                            <img class="max-w-[300px]" 
+                            src="@(movie.ImgUrl.Contains("https") ? movie.ImgUrl
+                            : Url.Content($"~/images/movies/{movie.ImgUrl}"))" />
+
                         </div>
                         <div class="detailsToMovie flex flex-col gap-[20px] text-white">
                             <h3>
@@ -66,3 +72,32 @@
         }
     }
 </div>
+
+@if (lenght != null)
+{
+    <div class="w-full flex items-center justify-center">
+        <div class="flex items-center justify-center border-[1px] px-[10px] border-solid rounded-[10px] border-[#888]">
+            <span class="text-white border-r-[1px] cursor-pointer ButtonLeft p-[8px_16px] text-[23px]">&laquo;</span>
+            <div class="flex conToPag gap-[5px]">
+                @for (int i = 0; i < (int)lenght; i++)
+                {
+                    <span class="text-[#888] text-[23px] active p-[8px_16px]">@(i + 1)</span>
+
+                }
+            </div>
+            <span class="text-white border-l-[1px] ButtonRight text-[23px]  cursor-pointer p-[8px_16px]">&raquo;</span>
+        </div>
+
+    </div>
+
+}
+@section AllMovies {
+    @if (TempData["message"]!= null)
+    {
+        <script>
+            toastr.success('@TempData["message"]');
+        </script>
+
+    }
+   <script src="~/js/AllMovies.js"></script>
+}                                

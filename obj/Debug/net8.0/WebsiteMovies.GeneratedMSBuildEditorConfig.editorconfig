@@ -1,11 +1,19 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebsiteMovies
 build_property.RootNamespace = WebsiteMovies
@@ -18,12 +26,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\backEnd_course\.net\codes\Session16\WebsiteMovies
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/backEnd_course/.net/codes/Session16/WebsiteMovies/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/backEnd_course/.net/codes/Session16/WebsiteMovies/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/backEnd_course/.net/codes/Session16/WebsiteMovies/Views/Actor/GetOneActor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JcR2V0T25lQWN0b3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/backEnd_course/.net/codes/Session16/WebsiteMovies/Views/Actor/IGetOneActor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JcSUdldE9uZUFjdG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/backEnd_course/.net/codes/Session16/WebsiteMovies/Views/Category/AddCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQWRkQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/backEnd_course/.net/codes/Session16/WebsiteMovies/Views/Category/AllCategory.cshtml]
@@ -50,12 +70,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcQWxsTW92aWVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/backEnd_course/.net/codes/Session16/WebsiteMovies/Views/Movie/SingleMove.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcU2luZ2xlTW92ZS5jc2h0bWw=
+[D:/backEnd_course/.net/codes/Session16/WebsiteMovies/Views/Movie/CreateMovie.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcQ3JlYXRlTW92aWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/backEnd_course/.net/codes/Session16/WebsiteMovies/Views/Movie/SingleMovie.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcU2luZ2xlTW92aWUuY3NodG1s
+[D:/backEnd_course/.net/codes/Session16/WebsiteMovies/Views/Movie/SingleMove.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcU2luZ2xlTW92ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/backEnd_course/.net/codes/Session16/WebsiteMovies/Views/Shared/Error.cshtml]
@@ -64,6 +84,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/backEnd_course/.net/codes/Session16/WebsiteMovies/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/backEnd_course/.net/codes/Session16/WebsiteMovies/Views/Shopping/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/backEnd_course/.net/codes/Session16/WebsiteMovies/Views/_ViewImports.cshtml]

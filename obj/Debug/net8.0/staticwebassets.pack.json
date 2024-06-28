@@ -29,8 +29,8 @@
       "PackagePath": "staticwebassets\\images\\cast\\cast2.png"
     },
     {
-      "Id": "D:\\backEnd_course\\.net\\codes\\Session16\\WebsiteMovies\\wwwroot\\images\\cast\\cast3.webp",
-      "PackagePath": "staticwebassets\\images\\cast\\cast3.webp"
+      "Id": "D:\\backEnd_course\\.net\\codes\\Session16\\WebsiteMovies\\wwwroot\\images\\cast\\cast3.png",
+      "PackagePath": "staticwebassets\\images\\cast\\cast3.png"
     },
     {
       "Id": "D:\\backEnd_course\\.net\\codes\\Session16\\WebsiteMovies\\wwwroot\\images\\cast\\cast4.png",
@@ -41,6 +41,10 @@
       "PackagePath": "staticwebassets\\images\\cast\\cast5.png"
     },
     {
+      "Id": "D:\\backEnd_course\\.net\\codes\\Session16\\WebsiteMovies\\wwwroot\\images\\cast\\cast6.jpeg",
+      "PackagePath": "staticwebassets\\images\\cast\\cast6.jpeg"
+    },
+    {
       "Id": "D:\\backEnd_course\\.net\\codes\\Session16\\WebsiteMovies\\wwwroot\\images\\cast\\cast6.png",
       "PackagePath": "staticwebassets\\images\\cast\\cast6.png"
     },
@@ -49,8 +53,8 @@
       "PackagePath": "staticwebassets\\images\\logo.png"
     },
     {
-      "Id": "D:\\backEnd_course\\.net\\codes\\Session16\\WebsiteMovies\\wwwroot\\images\\movie-2.jpg",
-      "PackagePath": "staticwebassets\\images\\movie-2.jpg"
+      "Id": "D:\\backEnd_course\\.net\\codes\\Session16\\WebsiteMovies\\wwwroot\\images\\movies\\movie-2.jpg",
+      "PackagePath": "staticwebassets\\images\\movies\\movie-2.jpg"
     },
     {
       "Id": "D:\\backEnd_course\\.net\\codes\\Session16\\WebsiteMovies\\wwwroot\\images\\movies\\movie1.png",
@@ -91,6 +95,14 @@
     {
       "Id": "D:\\backEnd_course\\.net\\codes\\Session16\\WebsiteMovies\\wwwroot\\images\\movies\\movie9.png",
       "PackagePath": "staticwebassets\\images\\movies\\movie9.png"
+    },
+    {
+      "Id": "D:\\backEnd_course\\.net\\codes\\Session16\\WebsiteMovies\\wwwroot\\js\\AllMovies.js",
+      "PackagePath": "staticwebassets\\js\\AllMovies.js"
+    },
+    {
+      "Id": "D:\\backEnd_course\\.net\\codes\\Session16\\WebsiteMovies\\wwwroot\\js\\DetilaPage.js",
+      "PackagePath": "staticwebassets\\js\\DetilaPage.js"
     },
     {
       "Id": "D:\\backEnd_course\\.net\\codes\\Session16\\WebsiteMovies\\wwwroot\\js\\site.js",

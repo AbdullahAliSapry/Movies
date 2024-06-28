@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fo7k7S8OpiiPDDJCrUxT2HQAN8tFjI+MUrPMd3fVKOs=",
+  "Hash": "DYpj6Vun13wtzvti+gy6x33+YSyoxh6AykKUQO3ZY3c=",
   "Source": "WebsiteMovies",
   "BasePath": "_content/WebsiteMovies",
   "Mode": "Default",
@@ -169,12 +169,12 @@
       "OriginalItemSpec": "wwwroot\\images\\cast\\cast2.png"
     },
     {
-      "Identity": "D:\\backEnd_course\\.net\\codes\\Session16\\WebsiteMovies\\wwwroot\\images\\cast\\cast3.webp",
+      "Identity": "D:\\backEnd_course\\.net\\codes\\Session16\\WebsiteMovies\\wwwroot\\images\\cast\\cast3.png",
       "SourceId": "WebsiteMovies",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\backEnd_course\\.net\\codes\\Session16\\WebsiteMovies\\wwwroot\\",
       "BasePath": "_content/WebsiteMovies",
-      "RelativePath": "images/cast/cast3.webp",
+      "RelativePath": "images/cast/cast3.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -185,7 +185,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\cast\\cast3.webp"
+      "OriginalItemSpec": "wwwroot\\images\\cast\\cast3.png"
     },
     {
       "Identity": "D:\\backEnd_course\\.net\\codes\\Session16\\WebsiteMovies\\wwwroot\\images\\cast\\cast4.png",
@@ -226,6 +226,25 @@
       "OriginalItemSpec": "wwwroot\\images\\cast\\cast5.png"
     },
     {
+      "Identity": "D:\\backEnd_course\\.net\\codes\\Session16\\WebsiteMovies\\wwwroot\\images\\cast\\cast6.jpeg",
+      "SourceId": "WebsiteMovies",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\backEnd_course\\.net\\codes\\Session16\\WebsiteMovies\\wwwroot\\",
+      "BasePath": "_content/WebsiteMovies",
+      "RelativePath": "images/cast/cast6.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\cast\\cast6.jpeg"
+    },
+    {
       "Identity": "D:\\backEnd_course\\.net\\codes\\Session16\\WebsiteMovies\\wwwroot\\images\\cast\\cast6.png",
       "SourceId": "WebsiteMovies",
       "SourceType": "Discovered",
@@ -264,25 +283,6 @@
       "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
-      "Identity": "D:\\backEnd_course\\.net\\codes\\Session16\\WebsiteMovies\\wwwroot\\images\\movie-2.jpg",
-      "SourceId": "WebsiteMovies",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\backEnd_course\\.net\\codes\\Session16\\WebsiteMovies\\wwwroot\\",
-      "BasePath": "_content/WebsiteMovies",
-      "RelativePath": "images/movie-2.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\movie-2.jpg"
-    },
-    {
       "Identity": "D:\\backEnd_course\\.net\\codes\\Session16\\WebsiteMovies\\wwwroot\\images\\movies\\movie1.png",
       "SourceId": "WebsiteMovies",
       "SourceType": "Discovered",
@@ -319,6 +319,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\movies\\movie10.png"
+    },
+    {
+      "Identity": "D:\\backEnd_course\\.net\\codes\\Session16\\WebsiteMovies\\wwwroot\\images\\movies\\movie-2.jpg",
+      "SourceId": "WebsiteMovies",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\backEnd_course\\.net\\codes\\Session16\\WebsiteMovies\\wwwroot\\",
+      "BasePath": "_content/WebsiteMovies",
+      "RelativePath": "images/movies/movie-2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\movies\\movie-2.jpg"
     },
     {
       "Identity": "D:\\backEnd_course\\.net\\codes\\Session16\\WebsiteMovies\\wwwroot\\images\\movies\\movie2.png",
@@ -471,6 +490,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\movies\\movie9.png"
+    },
+    {
+      "Identity": "D:\\backEnd_course\\.net\\codes\\Session16\\WebsiteMovies\\wwwroot\\js\\AllMovies.js",
+      "SourceId": "WebsiteMovies",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\backEnd_course\\.net\\codes\\Session16\\WebsiteMovies\\wwwroot\\",
+      "BasePath": "_content/WebsiteMovies",
+      "RelativePath": "js/AllMovies.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\AllMovies.js"
+    },
+    {
+      "Identity": "D:\\backEnd_course\\.net\\codes\\Session16\\WebsiteMovies\\wwwroot\\js\\DetilaPage.js",
+      "SourceId": "WebsiteMovies",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\backEnd_course\\.net\\codes\\Session16\\WebsiteMovies\\wwwroot\\",
+      "BasePath": "_content/WebsiteMovies",
+      "RelativePath": "js/DetilaPage.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\DetilaPage.js"
     },
     {
       "Identity": "D:\\backEnd_course\\.net\\codes\\Session16\\WebsiteMovies\\wwwroot\\js\\site.js",

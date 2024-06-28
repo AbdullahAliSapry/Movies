@@ -1,9 +1,9 @@
-﻿body{
-    display:flex;
-    flex-direction:column;
-    justify-content:space-between;
-    height:100vh;
-    overflow-x:hidden;
+﻿body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    overflow-x: hidden;
 }
 
 /* Add to your CSS file if needed */
@@ -16,7 +16,7 @@
     text-align: center;
     font-size: 18px;
     background: #fff;
-    height:300px;
+    height: 300px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -44,6 +44,44 @@
 .swiper-pagination {
     margin: -17px 0px;
 }
+
 .swiper-pagination .swiper-pagination-bullet-active {
-    background-color: #FFB334 !important;
+        background-color: #FFB334 !important;
+}
+
+.active {
+    color: white;
+    background: #0077CC;
+}
+
+.notactive {
+    cursor: not-allowed;
+    color: #808080;
+}
+
+.LoginForm > div {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.LoginForm > div > label {
+        color: white;
+        font-size: 20px;
+}
+ .LoginForm > div > input {
+        outline: none;
+        border: none;
+        border-radius: 9px;
+        padding: 5px 10px;
+        width: 300px;
+        color: #777;
+        font-size: 20px;
+}
+.LoginForm > div > button {
+        color: white;
+        font-size: 20px;
+        border-radius: 9px;
+        text-transform: uppercase;
+        padding: 5px;
 }

@@ -10,6 +10,10 @@ module.exports = {
                 xl: "1200px",
                 "2xl": "1400px",
             },
+            colors: {
+                "primary": "#0077cc",
+                "MainColor":"#1E1F2C"
+            }
         },
     },
     plugins: [],
